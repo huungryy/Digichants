@@ -7,19 +7,19 @@ const AboutPage = () => {
     {
       name: 'Vikrant Kumar',
       role: 'Design Head',
-      image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: '',
       bio: 'Expert UI/UX designer and web developer with a passion for creating beautiful, functional websites.'
     },
     {
-      name: 'Ananya Sharma',
-      role: 'SEO Specialist',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      name: ' Karan ',
+      role: 'Sr SEO Specialist',
+      image:  'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       bio: 'Data-driven SEO expert who helps clients achieve top rankings and drive organic traffic.'
     },
     {
-      name: 'Raj Patel',
+      name: 'Jeevesh Rajput',
       role: 'PPC Manager',
-      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: '',
       bio: 'Google and Meta ads specialist with a track record of successful ROI-focused campaigns.'
     }
   ];

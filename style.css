@@ -1,0 +1,15 @@
+/*
+Theme Name: Digichants
+Theme URI: https://digichants.com
+Author: Piyush Kumar
+Author URI: https://digichants.com
+Description: A custom WordPress theme for Digichants Digital Marketing Agency
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: digichants
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

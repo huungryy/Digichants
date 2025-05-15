@@ -1,25 +1,32 @@
 import React from 'react';
-import { CheckCircle, Activity, Quote } from 'lucide-react';
+import { CheckCircle, Activity, Quote, User } from 'lucide-react';
 import StatsSection from '../components/sections/StatsSection';
+// Import team member images
+import vikrantImage from '../images/vikrant.jpg';
+import karanImage from '../images/karan.jpg';
+import jeeveshImage from '../images/jeevesh.jpg';
+import piyushImage from '../images/piyush.jpg';
+import teamImage from '../images/team.jpg';
+import strategyImage from '../images/strategy.jpg';
 
 const AboutPage = () => {
   const team = [
     {
       name: 'Vikrant Kumar',
       role: 'Design Head',
-      image: '',
+      image: 'https://ui-avatars.com/api/?name=Vikrant+Kumar&background=0D8ABC&color=fff',
       bio: 'Expert UI/UX designer and web developer with a passion for creating beautiful, functional websites.'
     },
     {
-      name: ' Karan ',
+      name: 'Karan',
       role: 'Sr SEO Specialist',
-      image:  'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://ui-avatars.com/api/?name=Karan&background=6B46C1&color=fff',
       bio: 'Data-driven SEO expert who helps clients achieve top rankings and drive organic traffic.'
     },
     {
       name: 'Jeevesh Rajput',
       role: 'PPC Manager',
-      image: '',
+      image: 'https://ui-avatars.com/api/?name=Jeevesh+Rajput&background=2F855A&color=fff',
       bio: 'Google and Meta ads specialist with a track record of successful ROI-focused campaigns.'
     }
   ];
@@ -66,7 +73,7 @@ const AboutPage = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-600/20 rounded-2xl transform rotate-3"></div>
               <img 
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://ui-avatars.com/api/?name=Piyush+Kumar&size=400&background=4F46E5&color=fff"
                 alt="Piyush Kumar - CEO & Founder" 
                 className="relative z-10 rounded-2xl shadow-lg"
               />
@@ -102,18 +109,20 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Our Story */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-600/20 rounded-2xl transform rotate-3"></div>
-              <img 
-                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Digichants Team" 
-                className="relative z-10 rounded-2xl shadow-lg"
-              />
+              <div className="relative z-10 rounded-2xl shadow-lg bg-gradient-to-r from-blue-500 to-purple-500 p-8 flex items-center justify-center min-h-[400px]">
+                <div className="grid grid-cols-3 gap-4">
+                  {[1, 2, 3, 4, 5, 6].map((i) => (
+                    <User key={i} size={48} className="text-white/80" />
+                  ))}
+                </div>
+              </div>
             </div>
             
             <div>
@@ -241,7 +250,7 @@ const AboutPage = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-600/20 rounded-2xl transform -rotate-3"></div>
               <img 
-                src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src={strategyImage}
                 alt="Digital Marketing Strategy" 
                 className="relative z-10 rounded-2xl shadow-lg"
               />

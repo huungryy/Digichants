@@ -1,13 +1,9 @@
 import React from 'react';
 import { CheckCircle, Activity, Quote, User } from 'lucide-react';
 import StatsSection from '../components/sections/StatsSection';
-// Import team member images
-import vikrantImage from '../images/vikrant.jpg';
-import karanImage from '../images/karan.jpg';
-import jeeveshImage from '../images/jeevesh.jpg';
-import piyushImage from '../images/piyush.jpg';
-import teamImage from '../images/team.jpg';
-import strategyImage from '../images/strategy.jpg';
+
+// Replace image imports with placeholder URLs until you have the actual images
+const strategyImage = "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
 const AboutPage = () => {
   const team = [

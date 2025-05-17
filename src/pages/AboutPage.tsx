@@ -1,30 +1,49 @@
 import React from 'react';
 import { CheckCircle, Activity, Quote, User } from 'lucide-react';
 import StatsSection from '../components/sections/StatsSection';
+import CeoImage from "../images/ceo.jpg";
+import Abhijeetimage from "../images/abhijeet.png"
+import Vikrantimage from "../images/Vikrant.png"
+import Karanimage from "../images/karan.png"
+import Jeeveshimage from "../images/jeevesh.png"
+import Kashishimage from "../images/Kashish.png"
 
 // Replace image imports with placeholder URLs until you have the actual images
 const strategyImage = "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
 const AboutPage = () => {
   const team = [
-    {
+    { 
       name: 'Vikrant Kumar',
       role: 'Design Head',
-      image: 'https://ui-avatars.com/api/?name=Vikrant+Kumar&background=0D8ABC&color=fff',
+      image: Vikrantimage,
       bio: 'Expert UI/UX designer and web developer with a passion for creating beautiful, functional websites.'
     },
     {
       name: 'Karan',
       role: 'Sr SEO Specialist',
-      image: 'https://ui-avatars.com/api/?name=Karan&background=6B46C1&color=fff',
+      image: Karanimage,
       bio: 'Data-driven SEO expert who helps clients achieve top rankings and drive organic traffic.'
     },
     {
       name: 'Jeevesh Rajput',
       role: 'PPC Manager',
-      image: 'https://ui-avatars.com/api/?name=Jeevesh+Rajput&background=2F855A&color=fff',
+      image: Jeeveshimage,
       bio: 'Google and Meta ads specialist with a track record of successful ROI-focused campaigns.'
+    },
+    {
+      name: 'Abhijeet Sodlan',
+      role: 'Sr Web & App Developer',
+      image: Abhijeetimage,
+      bio: 'Experienced full-stack developer specializing in web and mobile app development with a focus on scalable solutions.'
+    },
+    {
+      name: 'Kashish Rajput',
+      role: 'Jr Web Designer',
+      image: Kashishimage,
+      bio: 'Creative web designer with a keen eye for detail and modern design trends.'
     }
+    
   ];
   
   const values = [
@@ -69,7 +88,7 @@ const AboutPage = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-600/20 rounded-2xl transform rotate-3"></div>
               <img 
-                src="https://ui-avatars.com/api/?name=Piyush+Kumar&size=400&background=4F46E5&color=fff"
+                src={CeoImage}
                 alt="Piyush Kumar - CEO & Founder" 
                 className="relative z-10 rounded-2xl shadow-lg"
               />
@@ -178,11 +197,11 @@ const AboutPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden group">
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden pt-[100%]">
                   <img 
                     src={member.image} 
                     alt={member.name} 
-                    className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="absolute top-0 left-0 w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>

@@ -111,7 +111,7 @@ const ServicesPage = () => {
         'Remarketing',
         'Conversion tracking'
       ],
-      image: 'https://i.pinimg.com/736x/84/0b/20/840b2059779e77c76c5df05468a6e8af.jpg'
+      image: 'https://i.pinimg.com/736x/84/0b/20/840b2059779e77c76c5df05468a6e8af.jpg '
     }
   ];
 

@@ -26,7 +26,8 @@ const ServicesPage = () => {
         'Mobile-first approach',
         'SEO-friendly structure',
         'Content management systems'
-      ]
+      ],
+      image: 'https://i.pinimg.com/736x/2b/c1/c9/2bc1c9c6efc3c194e67f30bfb0aa5e22.jpg'
     },
     {
       icon: Code,
@@ -39,7 +40,8 @@ const ServicesPage = () => {
         'Performance optimization',
         'Regular maintenance',
         'Security enhancements'
-      ]
+      ],
+      image: 'https://i.pinimg.com/736x/a5/5c/89/a55c89ec0ff1575233981ae4a25ebb84.jpg'
     },
     {
       icon: Search,
@@ -52,7 +54,8 @@ const ServicesPage = () => {
         'Content strategy',
         'Link building',
         'Performance tracking'
-      ]
+      ],
+      image: 'https://i.pinimg.com/736x/43/7f/c4/437fc4af1d5848298885a98c4387e028.jpg'
     },
     {
       icon: Layout,
@@ -65,7 +68,8 @@ const ServicesPage = () => {
         'Interaction design',
         'Usability testing',
         'Design systems'
-      ]
+      ],
+      image: 'https://i.pinimg.com/736x/ee/33/69/ee3369f79097a1e4c1c95742b2483a15.jpg'
     },
     {
       icon: ShoppingBag,
@@ -78,7 +82,8 @@ const ServicesPage = () => {
         'Budget management',
         'Bid optimization',
         'Performance analytics'
-      ]
+      ],
+      image: 'https://i.pinimg.com/736x/c1/f0/78/c1f078156fceedde798d2e63be098602.jpg'
     },
     {
       icon: Smartphone,
@@ -91,7 +96,8 @@ const ServicesPage = () => {
         'A/B testing',
         'Performance reporting',
         'Retargeting strategies'
-      ]
+      ],
+      image: 'https://i.pinimg.com/736x/94/c6/6f/94c66fbc630e2f275d048309bd7f61b3.jpg'
     },
     {
       icon: BarChart,
@@ -104,7 +110,8 @@ const ServicesPage = () => {
         'Shopping campaigns',
         'Remarketing',
         'Conversion tracking'
-      ]
+      ],
+      image: 'https://i.pinimg.com/736x/84/0b/20/840b2059779e77c76c5df05468a6e8af.jpg'
     }
   ];
 
@@ -167,7 +174,7 @@ const ServicesPage = () => {
                     index % 2 === 0 ? 'rotate-3' : '-rotate-3'
                   }`}></div>
                   <img 
-                    src={`https://images.pexels.com/photos/${900000 + index * 100}/pexels-photo-${900000 + index * 100}.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
+                    src={service.image}
                     alt={service.title} 
                     className="relative z-10 rounded-2xl shadow-lg w-full h-80 object-cover"
                   />

@@ -1,34 +1,49 @@
 import React from 'react';
 import { CheckCircle, Activity, Quote, User } from 'lucide-react';
 import StatsSection from '../components/sections/StatsSection';
-// Import team member images
-import vikrantImage from '../images/vikrant.jpg';
-import karanImage from '../images/karan.jpg';
-import jeeveshImage from '../images/jeevesh.jpg';
-import piyushImage from '../images/piyush.jpg';
-import teamImage from '../images/team.jpg';
-import strategyImage from '../images/strategy.jpg';
+import CeoImage from "../images/ceo.jpg";
+import Abhijeetimage from "../images/abhijeet.png"
+import Vikrantimage from "../images/Vikrant.png"
+import Karanimage from "../images/karan.png"
+import Jeeveshimage from "../images/jeevesh.png"
+import Kashishimage from "../images/Kashish.png"
+
+// Replace image imports with placeholder URLs until you have the actual images
+const strategyImage = "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
 const AboutPage = () => {
-  const team = [
-    {
+  const team = [  
+    { 
       name: 'Vikrant Kumar',
       role: 'Design Head',
-      image: 'https://ui-avatars.com/api/?name=Vikrant+Kumar&background=0D8ABC&color=fff',
+      image: Vikrantimage,
       bio: 'Expert UI/UX designer and web developer with a passion for creating beautiful, functional websites.'
     },
     {
       name: 'Karan',
       role: 'Sr SEO Specialist',
-      image: 'https://ui-avatars.com/api/?name=Karan&background=6B46C1&color=fff',
+      image: Karanimage,
       bio: 'Data-driven SEO expert who helps clients achieve top rankings and drive organic traffic.'
     },
     {
       name: 'Jeevesh Rajput',
       role: 'PPC Manager',
-      image: 'https://ui-avatars.com/api/?name=Jeevesh+Rajput&background=2F855A&color=fff',
+      image: Jeeveshimage,
       bio: 'Google and Meta ads specialist with a track record of successful ROI-focused campaigns.'
+    },
+    {
+      name: 'Abhijeet Sodlan',
+      role: 'Sr Web & App Developer',
+      image: Abhijeetimage,
+      bio: 'Experienced full-stack developer specializing in web and mobile app development with a focus on scalable solutions.'
+    },
+    {
+      name: 'Kashish Rajput',
+      role: 'Jr Web Designer',
+      image: Kashishimage,
+      bio: 'Creative web designer with a keen eye for detail and modern design trends.'
     }
+    
   ];
   
   const values = [
@@ -73,7 +88,7 @@ const AboutPage = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-600/20 rounded-2xl transform rotate-3"></div>
               <img 
-                src="https://ui-avatars.com/api/?name=Piyush+Kumar&size=400&background=4F46E5&color=fff"
+                src={CeoImage}
                 alt="Piyush Kumar - CEO & Founder" 
                 className="relative z-10 rounded-2xl shadow-lg"
               />
@@ -85,7 +100,7 @@ const AboutPage = () => {
                 <p className="text-xl text-blue-600 mb-6">CEO & Founder</p>
                 <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6"></div>
                 <p className="text-gray-600 mb-6">
-                  With over 7 years of experience in digital marketing, Piyush has helped numerous businesses achieve remarkable growth through innovative digital strategies and data-driven approaches.
+                  With over 2 years of experience in digital marketing, Piyush has helped numerous businesses achieve remarkable growth through innovative digital strategies and data-driven approaches.
                 </p>
                 <div className="bg-white p-6 rounded-xl shadow-md relative">
                   <Quote className="absolute -top-3 -left-3 text-blue-600 bg-white rounded-full p-1" size={32} />
@@ -97,7 +112,7 @@ const AboutPage = () => {
               
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="bg-white p-4 rounded-lg shadow-md text-center">
-                  <div className="text-2xl font-bold text-blue-600 mb-1">7+</div>
+                  <div className="text-2xl font-bold text-blue-600 mb-1">2+</div>
                   <div className="text-gray-600">Years Experience</div>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-md text-center">
@@ -128,10 +143,10 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2022, Digichants began with a simple mission: to help businesses navigate the complex world of digital marketing and achieve measurable growth.
+                Founded in 2025, Digichants began with a simple mission: to help businesses navigate the complex world of digital marketing and achieve measurable growth.
               </p>
               <p className="text-gray-600 mb-4">
-                What started as a small startup has quickly grown into a full-service digital marketing agency, successfully completing over 10 projects for clients across various industries.
+                As a fresh and innovative startup, we're rapidly growing into a full-service digital marketing agency, already successfully completing several projects for clients across various industries.
               </p>
               <p className="text-gray-600">
                 Our team combines technical expertise with creative thinking to deliver customized solutions that address our clients' unique needs and challenges.
@@ -182,11 +197,11 @@ const AboutPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden group">
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden pt-[100%]">
                   <img 
                     src={member.image} 
                     alt={member.name} 
-                    className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="absolute top-0 left-0 w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
@@ -265,9 +280,13 @@ const AboutPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Work With Us?
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
+          <p className="text-xl mb-4 max-w-2xl mx-auto">
             Contact us today to discuss how we can help your business grow through effective digital marketing.
           </p>
+          <div className="mb-8 text-lg">
+            <p className="mb-2">Email: digichants.info@gmail.com</p>
+            <p>Address: U.P, Bijnor near St. Marry Bairaj Road</p>
+          </div>
           <a 
             href="/contact" 
             className="inline-block px-8 py-3 bg-white text-blue-600 rounded-full font-medium hover:bg-gray-100 transition-colors duration-300"

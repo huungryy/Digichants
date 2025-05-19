@@ -4,7 +4,7 @@ import StatsSection from '../components/sections/StatsSection';
 import CeoImage from "../images/ceo.jpg";
 import Abhijeetimage from "../images/Abhijeet.png";
 import Vikrantimage from "../images/Vikrant.png";
-import Karanimage from "../images/karan.png";
+import Karanimage from "../images/Karan.png";
 import Jeeveshimage from "../images/jeevesh.png";
 import Kashishimage from "../images/kashish.png";
 

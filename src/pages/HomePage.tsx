@@ -25,7 +25,7 @@ const HomePage = () => {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Crafting Digital Success Stories Since{' '}
-                <span className="text-blue-600">2022</span>
+                <span className="text-blue-600">2025</span>
               </h2>
               <p className="text-gray-600 mb-6">
                 Digichants is a fast-growing digital marketing agency that has successfully delivered 10+ projects for businesses seeking growth in the digital world.

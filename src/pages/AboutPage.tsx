@@ -12,7 +12,7 @@ import Kashishimage from "../images/Kashish.png"
 const strategyImage = "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
 const AboutPage = () => {
-  const team = [
+  const team = [  
     { 
       name: 'Vikrant Kumar',
       role: 'Design Head',
@@ -100,7 +100,7 @@ const AboutPage = () => {
                 <p className="text-xl text-blue-600 mb-6">CEO & Founder</p>
                 <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6"></div>
                 <p className="text-gray-600 mb-6">
-                  With over 7 years of experience in digital marketing, Piyush has helped numerous businesses achieve remarkable growth through innovative digital strategies and data-driven approaches.
+                  With over 2 years of experience in digital marketing, Piyush has helped numerous businesses achieve remarkable growth through innovative digital strategies and data-driven approaches.
                 </p>
                 <div className="bg-white p-6 rounded-xl shadow-md relative">
                   <Quote className="absolute -top-3 -left-3 text-blue-600 bg-white rounded-full p-1" size={32} />
@@ -112,7 +112,7 @@ const AboutPage = () => {
               
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="bg-white p-4 rounded-lg shadow-md text-center">
-                  <div className="text-2xl font-bold text-blue-600 mb-1">7+</div>
+                  <div className="text-2xl font-bold text-blue-600 mb-1">2+</div>
                   <div className="text-gray-600">Years Experience</div>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-md text-center">
@@ -143,10 +143,10 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2022, Digichants began with a simple mission: to help businesses navigate the complex world of digital marketing and achieve measurable growth.
+                Founded in 2025, Digichants began with a simple mission: to help businesses navigate the complex world of digital marketing and achieve measurable growth.
               </p>
               <p className="text-gray-600 mb-4">
-                What started as a small startup has quickly grown into a full-service digital marketing agency, successfully completing over 10 projects for clients across various industries.
+                As a fresh and innovative startup, we're rapidly growing into a full-service digital marketing agency, already successfully completing several projects for clients across various industries.
               </p>
               <p className="text-gray-600">
                 Our team combines technical expertise with creative thinking to deliver customized solutions that address our clients' unique needs and challenges.
@@ -280,9 +280,13 @@ const AboutPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Work With Us?
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
+          <p className="text-xl mb-4 max-w-2xl mx-auto">
             Contact us today to discuss how we can help your business grow through effective digital marketing.
           </p>
+          <div className="mb-8 text-lg">
+            <p className="mb-2">Email: digichants.info@gmail.com</p>
+            <p>Address: U.P, Bijnor near St. Marry Bairaj Road</p>
+          </div>
           <a 
             href="/contact" 
             className="inline-block px-8 py-3 bg-white text-blue-600 rounded-full font-medium hover:bg-gray-100 transition-colors duration-300"

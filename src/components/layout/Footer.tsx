@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -118,33 +118,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Team Portfolio */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Our Team</h3>
-            <ul className="space-y-2">
-              <li className="text-gray-400 hover:text-white transition duration-300">
-                <a href="https://piyushkumar.com" target="_blank" rel="noopener noreferrer">
-                  Piyush Kumar - CEO & Founder
-                </a>
-              </li>
-              <li className="text-gray-400 hover:text-white transition duration-300">
-                <a href="https://vikrantkumar.com" target="_blank" rel="noopener noreferrer">
-                  Vikrant Kumar - Design Head
-                </a>
-              </li>
-              <li className="text-gray-400 hover:text-white transition duration-300">
-                <a href="https://ananyasharma.com" target="_blank" rel="noopener noreferrer">
-                  Ananya Sharma - SEO Specialist
-                </a>
-              </li>
-              <li className="text-gray-400 hover:text-white transition duration-300">
-                <a href="https://rajpatel.com" target="_blank" rel="noopener noreferrer">
-                  Raj Patel - PPC Manager
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
@@ -152,21 +125,20 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-purple-500 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">
-                  123 Digital Avenue, Tech Park<br />
-                  Suite 101, Business District<br />
-                  New Delhi, India 110001
+                  Bijnor, U.P India<br />
+                  (near st marry)
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={20} className="text-purple-500 flex-shrink-0" />
-                <a href="tel:+911234567890" className="text-gray-400 hover:text-white transition duration-300">
-                  +91 123 456 7890
+                <a href="tel:+916397341136" className="text-gray-400 hover:text-white transition duration-300">
+                  +91 639 734 1136
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-purple-500 flex-shrink-0" />
-                <a href="mailto:info@digichants.com" className="text-gray-400 hover:text-white transition duration-300">
-                  info@digichants.com
+                <a href="mailto:digichants.info@gmail.com" className="text-gray-400 hover:text-white transition duration-300">
+                  digichants.info@gmail.com
                 </a>
               </li>
             </ul>

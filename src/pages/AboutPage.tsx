@@ -2,7 +2,7 @@ import React from 'react';
 import { CheckCircle, Activity, Quote, User } from 'lucide-react';
 import StatsSection from '../components/sections/StatsSection';
 import CeoImage from "../images/ceo.jpg";
-import Abhijeetimage from "../images/abhijeet.png";
+import Abhijeetimage from "../images/Abhijeet.png";
 import Vikrantimage from "../images/Vikrant.png";
 import Karanimage from "../images/karan.png";
 import Jeeveshimage from "../images/jeevesh.png";

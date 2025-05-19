@@ -2,11 +2,11 @@ import React from 'react';
 import { CheckCircle, Activity, Quote, User } from 'lucide-react';
 import StatsSection from '../components/sections/StatsSection';
 import CeoImage from "../images/ceo.jpg";
-import Abhijeetimage from "../images/abhijeet.png"
-import Vikrantimage from "../images/Vikrant.png"
-import Karanimage from "../images/karan.png"
-import Jeeveshimage from "../images/jeevesh.png"
-import Kashishimage from "../images/Kashish.png"
+import Abhijeetimage from "../images/abhijeet.png";
+import Vikrantimage from "../images/Vikrant.png";
+import Karanimage from "../images/karan.png";
+import Jeeveshimage from "../images/jeevesh.png";
+import Kashishimage from "../images/Kashish.png";
 
 // Replace image imports with placeholder URLs until you have the actual images
 const strategyImage = "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";

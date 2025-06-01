@@ -69,42 +69,42 @@ const HomePage = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl shadow-lg">
               <img 
-                src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="E-commerce Project" 
+                src="/src/images/Fooapp.png" 
+                alt="Foo App Project" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-white text-xl font-bold mb-2">StyleHub E-commerce</h3>
-                  <p className="text-white/80">Shopify Development & SEO</p>
+                  <h3 className="text-white text-xl font-bold mb-2">Food App</h3>
+                  <p className="text-white/80">Mobile App Development</p>
                 </div>
               </div>
             </div>
             
             <div className="group relative overflow-hidden rounded-xl shadow-lg">
               <img 
-                src="https://images.pexels.com/photos/6177604/pexels-photo-6177604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="SaaS Website" 
+                src="/src/images/Untitled design (2).png" 
+                alt="Design Project" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-white text-xl font-bold mb-2">TechFlow SaaS</h3>
-                  <p className="text-white/80">Website Design & Google Ads</p>
+                  <h3 className="text-white text-xl font-bold mb-2">kaypiensemi</h3>
+                  <p className="text-white/80">Web Development</p>
                 </div>
               </div>
             </div>
             
             <div className="group relative overflow-hidden rounded-xl shadow-lg">
               <img 
-                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="Startup Website" 
+                src="/src/images/betterchoi.jpg" 
+                alt="Better Choice Project" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-white text-xl font-bold mb-2">InnovateLab Startup</h3>
-                  <p className="text-white/80">UI/UX Design & Meta Ads</p>
+                  <h3 className="text-white text-xl font-bold mb-2">Better Choice</h3>
+                  <p className="text-white/80">Web Development</p>
                 </div>
               </div>
             </div>

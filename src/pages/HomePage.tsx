@@ -6,6 +6,10 @@ import TestimonialsSection from '../components/sections/TestimonialsSection';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Button from '../components/ui/Button';
+// Import images
+import FooappImage from '../images/Fooapp.png';
+import CreativeDesignImage from '../images/Untitled design (2).png';
+import BetterChoiceImage from '../images/betterchoi.jpg';
 
 const HomePage = () => {
   return (
@@ -66,10 +70,11 @@ const HomePage = () => {
             </p>
           </div>
           
+          // Update the Featured Projects section
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl shadow-lg">
               <img 
-                src="/src/images/Fooapp.png" 
+                src={FooappImage}
                 alt="Foo App Project" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -83,7 +88,7 @@ const HomePage = () => {
             
             <div className="group relative overflow-hidden rounded-xl shadow-lg">
               <img 
-                src="/src/images/Untitled design (2).png" 
+                src={CreativeDesignImage}
                 alt="Design Project" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -97,7 +102,7 @@ const HomePage = () => {
             
             <div className="group relative overflow-hidden rounded-xl shadow-lg">
               <img 
-                src="/src/images/betterchoi.jpg" 
+                src={BetterChoiceImage}
                 alt="Better Choice Project" 
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />

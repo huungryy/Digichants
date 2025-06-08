@@ -1,5 +1,8 @@
 import React from 'react';
 import PortfolioCard from '../components/ui/PortfolioCard';
+import FooappImage from '../images/Fooapp.png';
+import CreativeDesignImage from '../images/Untitled design (2).png';
+import BetterChoiceImage from '../images/betterchoi.jpg';
 
 const PortfolioPage = () => {
   const projects = [
@@ -7,21 +10,21 @@ const PortfolioPage = () => {
       id: 1,
       title: 'Foo App',
       categories: ['Mobile App Development'],
-      image: '/src/images/Fooapp.png',
+      image: FooappImage,
       link: '#'
     },
     {
       id: 2,
       title: 'Creative Design',
       categories: ['UI/UX Design'],
-      image: '/src/images/Untitled design (2).png',
+      image: CreativeDesignImage,
       link: '#'
     },
     {
       id: 3,
       title: 'Better Choice',
       categories: ['Web Development'],
-      image: '/src/images/betterchoi.jpg',
+      image: BetterChoiceImage,
       link: '#'
     }
   ];

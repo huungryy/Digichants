@@ -69,8 +69,6 @@ const HomePage = () => {
               Take a look at some of our successful projects that have helped businesses achieve their goals.
             </p>
           </div>
-          
-          // Update the Featured Projects section
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl shadow-lg">
               <img 

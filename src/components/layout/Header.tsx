@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown, Activity } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +42,20 @@ const Header = () => {
             to="/"
             className="flex items-center gap-2 text-2xl font-bold text-blue-600"
           >
-            <Activity size={32} className="text-purple-600" />
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="40" 
+              height="40" 
+              viewBox="0 0 100 100"
+              className="h-10 w-auto"
+            >
+              <path 
+                d="M20,50 L30,30 L40,70 L50,20 L60,50 L70,40 L80,50" 
+                stroke="#8A2BE2" 
+                strokeWidth="4" 
+                fill="none" 
+              />
+            </svg>
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Digichants
             </span>

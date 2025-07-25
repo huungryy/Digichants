@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <style>
+    .logo-text { font: bold 80px sans-serif; fill: #8A2BE2; }
+    .wave { stroke: #8A2BE2; stroke-width: 8; fill: none; }
+  </style>
+  <path class="wave" d="M100,100 L140,50 L180,150 L220,70 L260,100" />
+  <text x="300" y="120" class="logo-text">Digichants</text>
+</svg>
